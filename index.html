@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13/dist/vue.js"></script>
+    <link rel="stylesheet" href="/style.css">
+   
+
+    <title>Slider</title>
+  </head>
+      <header>
+             <nav>
+                <img class="logo" src="images/logo.png" alt="Logo">
+               <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+               </ul>
+             </nav>
+       
+        
+    </header>
+    <body>
+            <h1> Plats proposés</h1>
+            <section class="appp">
+            <section class="slider-container">      
+              <div  id="app">
+                <!--Ces éléments sont remplis dynamiquement en utilisant les données stockées dans notre tableau d'objet "carousselData"-->
+                <img class="carousel-image" :src="carousselData[carousselIndex].imgSrc">
+                <div class="slider-title">{{ carousselData[carousselIndex].title }}</div>
+                <div class="slider-description">{{ carousselData[carousselIndex].description }}</div>
+                <div class="slider-price">{{ carousselData[carousselIndex].prix }}€</div>
+                <div class="buttons" >
+                  <!--Les boutons "Précédent" et "Suivant" sont liés à des méthodes "previous" et 
+                     "next" qui changent l'index du tableau pour afficher les éléments suivants ou précédents-->
+                        <!-- "v-on:click" permet  de déclencher "previous et next" respectivement lorsqu'on clique sur les boutons. -->
+                  <button v-on:click="previous">Précédent</button>
+                  <button v-on:click="next">Suivant</button>
+                </div>
+                </div>
+              </section>
+              </section>
+                <!-- balise "script" qui appelle le framework Vue.js pour rendre le carrousel fonctionnel -->
+              <script type="module" src="vue.js"></script>
+    </body>
+    <footer>
+              <img class="logo" src="images/logo.png" alt="Logo">
+                <ul>
+                  <li><a href="#">Instagram</li>
+                  <li><a href="#">Facebook</li>
+                  <li>56 boulevard Albin Durand</li>
+                </ul>
+    </footer>
+</html>
+    

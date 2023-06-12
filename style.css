@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: #fff;
+    font-family: 'Inter', sans-serif;
+      
+  }
+header {
+    background-color: #D1AF94;
+    color: #fff;
+    padding: 1em;
+  
+  }
+  
+  nav {
+   position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+  
+  }
+  
+  nav li {
+    margin: 0 1em;
+    margin-right: 90px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .logo {
+   width: 35px;
+   height: 35px;
+   
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+  }
+
+  .app {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    
+      
+  }
+  h1 {
+   
+    text-align: center;
+    text-align: center;
+   
+      
+
+  }
+  .slider-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  
+  
+  
+  
+}
+
+.slider-container img {
+ text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+  
+}
+
+.slider-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: inline-block;
+  margin: 10px; 
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #EF562D;
+  color: #ffffff;
+  border: 2px solid #333;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.slider-price{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    
+    
+}
+button:hover {
+  background-color: #e6785a;
+  color: #fff;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider-description {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+ 
+  .carousel-image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /*footer*/
+
+footer {
+  background-color: #D1AF94;
+  color: #ffffff;
+  padding: 20px;
+  text-align: right; 
+  position: absolute; 
+  bottom: 0; 
+  width: 97%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; 
+}
+
+li {
+ 
+  margin-right: 100px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+i {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 900;
+  }
+  
+  
+  
