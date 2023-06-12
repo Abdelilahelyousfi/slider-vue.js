@@ -9,6 +9,7 @@ header {
     background-color: #D1AF94;
     color: #fff;
     padding: 1em;
+    width: 100%;
   
   }
   
@@ -147,7 +148,7 @@ footer {
   text-align: right; 
   position: absolute; 
   bottom: 0; 
-  width: 97%;
+  width: 100%;
 }
 
 ul {
