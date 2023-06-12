@@ -3,3 +3,5 @@ Dans le cadre d'un exercice en framework JavaScript Vue.js, on nous a demandé d
 
 Les flèches permettent d'afficher la photo suivante ou la photo précédente. Attention, si les flèches nous font arriver à la dernière diapositive,
 alors nous repartons à la première.
+
+https://abdelilahelyousfi.github.io/slider-vue.js/
